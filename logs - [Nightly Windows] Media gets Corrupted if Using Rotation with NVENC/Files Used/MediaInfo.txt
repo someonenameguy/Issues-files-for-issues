@@ -1,0 +1,297 @@
+General
+Complete name                            : C:\Users\Kevan\Desktop\ADB\270 Deg.mp4
+Format                                   : MPEG-4
+Format profile                           : Base Media / Version 2
+Codec ID                                 : mp42 (isom/mp42)
+File size                                : 5.01 MiB
+Duration                                 : 5 s 950 ms
+Overall bit rate                         : 7 067 kb/s
+Frame rate                               : 30.000 FPS
+Performer                                : Galaxy Z Fold5
+Encoded date                             : 2025-03-18 11:52:01 UTC
+Tagged date                              : 2025-03-18 11:52:01 UTC
+xyz                                      : +01.3360+103.8438/
+com.android.version                      : 14
+
+Video
+ID                                       : 1
+Format                                   : HEVC
+Format/Info                              : High Efficiency Video Coding
+Format profile                           : Main@L3.1@Main
+Codec ID                                 : hvc1
+Codec ID/Info                            : High Efficiency Video Coding
+Duration                                 : 5 s 950 ms
+Source duration                          : 5 s 799 ms
+Bit rate                                 : 6 982 kb/s
+Width                                    : 1 280 pixels
+Height                                   : 720 pixels
+Display aspect ratio                     : 16:9
+Active width                             : 720 pixels
+Active height                            : 1 280 pixels
+Active display aspect ratio              : 0.560
+Rotation                                 : 270°
+Frame rate mode                          : Variable
+Frame rate                               : 30.000 FPS
+Minimum frame rate                       : 30.000 FPS
+Maximum frame rate                       : 30.010 FPS
+Real frame rate                          : 30.000 FPS
+Standard                                 : PAL
+Color space                              : YUV
+Chroma subsampling                       : 4:2:0
+Bit depth                                : 8 bits
+Bits/(Pixel*Frame)                       : 0.253
+Stream size                              : 4.83 MiB (96%)
+Source stream size                       : 4.83 MiB (96%)
+Title                                    : VideoHandle
+Language                                 : English
+Encoded date                             : 2025-03-18 11:52:01 UTC
+Tagged date                              : 2025-03-18 11:52:01 UTC
+Color range                              : Limited
+Color primaries                          : BT.709
+Transfer characteristics                 : BT.709
+Matrix coefficients                      : BT.709
+mdhd_Duration                            : 5950
+Codec configuration box                  : hvcC
+
+Audio
+ID                                       : 2
+Format                                   : AAC LC
+Format/Info                              : Advanced Audio Codec Low Complexity
+Codec ID                                 : mp4a-40-2
+Duration                                 : 5 s 931 ms
+Bit rate mode                            : Constant
+Bit rate                                 : 256 kb/s
+Channel(s)                               : 2 channels
+Channel layout                           : L R
+Sampling rate                            : 48.0 kHz
+Frame rate                               : 46.875 FPS (1024 SPF)
+Compression mode                         : Lossy
+Stream size                              : 185 KiB (4%)
+Title                                    : SoundHandle
+Language                                 : English
+Encoded date                             : 2025-03-18 11:52:01 UTC
+Tagged date                              : 2025-03-18 11:52:01 UTC
+
+ReportBy                                 : MediaInfoLib - v24.12
+CreatedOn                                : UTC 2025-03-18 11:56:59
+General
+Complete name                            : C:\Users\Kevan\Desktop\ADB\0 Deg.mp4
+Format                                   : MPEG-4
+Format profile                           : Base Media / Version 2
+Codec ID                                 : mp42 (isom/mp42)
+File size                                : 5.15 MiB
+Duration                                 : 6 s 28 ms
+Overall bit rate                         : 7 165 kb/s
+Frame rate                               : 30.000 FPS
+Performer                                : Galaxy Z Fold5
+Encoded date                             : 2025-03-18 11:51:32 UTC
+Tagged date                              : 2025-03-18 11:51:32 UTC
+xyz                                      : +01.3360+103.8438/
+com.android.version                      : 14
+
+Video
+ID                                       : 1
+Format                                   : HEVC
+Format/Info                              : High Efficiency Video Coding
+Format profile                           : Main@L3.1@Main
+Codec ID                                 : hvc1
+Codec ID/Info                            : High Efficiency Video Coding
+Duration                                 : 6 s 28 ms
+Source duration                          : 5 s 899 ms
+Bit rate                                 : 7 053 kb/s
+Width                                    : 1 280 pixels
+Height                                   : 720 pixels
+Display aspect ratio                     : 16:9
+Frame rate mode                          : Variable
+Frame rate                               : 30.000 FPS
+Minimum frame rate                       : 30.000 FPS
+Maximum frame rate                       : 30.010 FPS
+Real frame rate                          : 30.000 FPS
+Standard                                 : PAL
+Color space                              : YUV
+Chroma subsampling                       : 4:2:0
+Bit depth                                : 8 bits
+Bits/(Pixel*Frame)                       : 0.255
+Stream size                              : 4.96 MiB (96%)
+Source stream size                       : 4.96 MiB (96%)
+Title                                    : VideoHandle
+Language                                 : English
+Encoded date                             : 2025-03-18 11:51:32 UTC
+Tagged date                              : 2025-03-18 11:51:32 UTC
+Color range                              : Limited
+Color primaries                          : BT.709
+Transfer characteristics                 : BT.709
+Matrix coefficients                      : BT.709
+mdhd_Duration                            : 6028
+Codec configuration box                  : hvcC
+
+Audio
+ID                                       : 2
+Format                                   : AAC LC
+Format/Info                              : Advanced Audio Codec Low Complexity
+Codec ID                                 : mp4a-40-2
+Duration                                 : 6 s 16 ms
+Bit rate mode                            : Constant
+Bit rate                                 : 256 kb/s
+Channel(s)                               : 2 channels
+Channel layout                           : L R
+Sampling rate                            : 48.0 kHz
+Frame rate                               : 46.875 FPS (1024 SPF)
+Compression mode                         : Lossy
+Stream size                              : 188 KiB (4%)
+Title                                    : SoundHandle
+Language                                 : English
+Encoded date                             : 2025-03-18 11:51:32 UTC
+Tagged date                              : 2025-03-18 11:51:32 UTC
+mdhd_Duration                            : 6016
+
+ReportBy                                 : MediaInfoLib - v24.12
+CreatedOn                                : UTC 2025-03-18 11:56:59
+General
+Complete name                            : C:\Users\Kevan\Desktop\ADB\90 Deg.mp4
+Format                                   : MPEG-4
+Format profile                           : Base Media / Version 2
+Codec ID                                 : mp42 (isom/mp42)
+File size                                : 5.02 MiB
+Duration                                 : 5 s 921 ms
+Overall bit rate                         : 7 109 kb/s
+Frame rate                               : 30.000 FPS
+Performer                                : Galaxy Z Fold5
+Encoded date                             : 2025-03-18 11:51:43 UTC
+Tagged date                              : 2025-03-18 11:51:43 UTC
+xyz                                      : +01.3360+103.8438/
+com.android.version                      : 14
+
+Video
+ID                                       : 1
+Format                                   : HEVC
+Format/Info                              : High Efficiency Video Coding
+Format profile                           : Main@L3.1@Main
+Codec ID                                 : hvc1
+Codec ID/Info                            : High Efficiency Video Coding
+Duration                                 : 5 s 921 ms
+Source duration                          : 5 s 732 ms
+Bit rate                                 : 7 073 kb/s
+Width                                    : 1 280 pixels
+Height                                   : 720 pixels
+Display aspect ratio                     : 16:9
+Active width                             : 720 pixels
+Active height                            : 1 280 pixels
+Active display aspect ratio              : 0.560
+Rotation                                 : 90°
+Frame rate mode                          : Variable
+Frame rate                               : 30.000 FPS
+Minimum frame rate                       : 30.000 FPS
+Maximum frame rate                       : 30.010 FPS
+Real frame rate                          : 30.000 FPS
+Standard                                 : PAL
+Color space                              : YUV
+Chroma subsampling                       : 4:2:0
+Bit depth                                : 8 bits
+Bits/(Pixel*Frame)                       : 0.256
+Stream size                              : 4.83 MiB (96%)
+Source stream size                       : 4.83 MiB (96%)
+Title                                    : VideoHandle
+Language                                 : English
+Encoded date                             : 2025-03-18 11:51:43 UTC
+Tagged date                              : 2025-03-18 11:51:43 UTC
+Color range                              : Limited
+Color primaries                          : BT.709
+Transfer characteristics                 : BT.709
+Matrix coefficients                      : BT.709
+mdhd_Duration                            : 5921
+Codec configuration box                  : hvcC
+
+Audio
+ID                                       : 2
+Format                                   : AAC LC
+Format/Info                              : Advanced Audio Codec Low Complexity
+Codec ID                                 : mp4a-40-2
+Duration                                 : 5 s 888 ms
+Bit rate mode                            : Constant
+Bit rate                                 : 256 kb/s
+Channel(s)                               : 2 channels
+Channel layout                           : L R
+Sampling rate                            : 48.0 kHz
+Frame rate                               : 46.875 FPS (1024 SPF)
+Compression mode                         : Lossy
+Stream size                              : 184 KiB (4%)
+Title                                    : SoundHandle
+Language                                 : English
+Encoded date                             : 2025-03-18 11:51:43 UTC
+Tagged date                              : 2025-03-18 11:51:43 UTC
+
+ReportBy                                 : MediaInfoLib - v24.12
+CreatedOn                                : UTC 2025-03-18 11:56:59
+General
+Complete name                            : C:\Users\Kevan\Desktop\ADB\180 Deg.mp4
+Format                                   : MPEG-4
+Format profile                           : Base Media / Version 2
+Codec ID                                 : mp42 (isom/mp42)
+File size                                : 5.02 MiB
+Duration                                 : 5 s 862 ms
+Overall bit rate                         : 7 177 kb/s
+Frame rate                               : 30.000 FPS
+Performer                                : Galaxy Z Fold5
+Encoded date                             : 2025-03-18 11:52:13 UTC
+Tagged date                              : 2025-03-18 11:52:13 UTC
+xyz                                      : +01.3360+103.8438/
+com.android.version                      : 14
+
+Video
+ID                                       : 1
+Format                                   : HEVC
+Format/Info                              : High Efficiency Video Coding
+Format profile                           : Main@L3.1@Main
+Codec ID                                 : hvc1
+Codec ID/Info                            : High Efficiency Video Coding
+Duration                                 : 5 s 862 ms
+Source duration                          : 5 s 699 ms
+Bit rate                                 : 7 113 kb/s
+Width                                    : 1 280 pixels
+Height                                   : 720 pixels
+Display aspect ratio                     : 16:9
+Frame rate mode                          : Variable
+Frame rate                               : 30.000 FPS
+Minimum frame rate                       : 30.000 FPS
+Maximum frame rate                       : 30.010 FPS
+Real frame rate                          : 30.000 FPS
+Standard                                 : PAL
+Color space                              : YUV
+Chroma subsampling                       : 4:2:0
+Bit depth                                : 8 bits
+Bits/(Pixel*Frame)                       : 0.257
+Stream size                              : 4.83 MiB (96%)
+Source stream size                       : 4.83 MiB (96%)
+Title                                    : VideoHandle
+Language                                 : English
+Encoded date                             : 2025-03-18 11:52:13 UTC
+Tagged date                              : 2025-03-18 11:52:13 UTC
+Color range                              : Limited
+Color primaries                          : BT.709
+Transfer characteristics                 : BT.709
+Matrix coefficients                      : BT.709
+mdhd_Duration                            : 5862
+Codec configuration box                  : hvcC
+
+Audio
+ID                                       : 2
+Format                                   : AAC LC
+Format/Info                              : Advanced Audio Codec Low Complexity
+Codec ID                                 : mp4a-40-2
+Duration                                 : 5 s 824 ms
+Bit rate mode                            : Constant
+Bit rate                                 : 256 kb/s
+Channel(s)                               : 2 channels
+Channel layout                           : L R
+Sampling rate                            : 48.0 kHz
+Frame rate                               : 46.875 FPS (1024 SPF)
+Compression mode                         : Lossy
+Stream size                              : 182 KiB (4%)
+Title                                    : SoundHandle
+Language                                 : English
+Encoded date                             : 2025-03-18 11:52:13 UTC
+Tagged date                              : 2025-03-18 11:52:13 UTC
+
+ReportBy                                 : MediaInfoLib - v24.12
+CreatedOn                                : UTC 2025-03-18 11:56:59
