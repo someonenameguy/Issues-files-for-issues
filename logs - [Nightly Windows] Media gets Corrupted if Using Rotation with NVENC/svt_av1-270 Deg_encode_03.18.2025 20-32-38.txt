@@ -1,0 +1,213 @@
+HandBrake Nightly 20250315092333-721a872e9-master (2025031701)
+OS: Microsoft Windows NT 10.0.22631.0
+CPU: 13th Gen Intel(R) Core(TM) i7-13700HX
+Ram: 32487 MB, 
+GPU Information:
+  NVIDIA GeForce RTX 4060 Laptop GPU - 32.0.15.7196
+  Intel(R) UHD Graphics - 31.0.101.4146
+Screen: 2048x1280
+Temp Dir: C:\Users\Kevan\AppData\Local\Temp\
+Install Dir: C:\Users\Kevan\Desktop\ADB\HandBrake\
+Data Dir: C:\Users\Kevan\AppData\Roaming\HandBrake\Nightly
+
+-------------------------------------------
+
+ # Starting Encode ...
+
+[20:32:38] base preset: Default HEVC Nivdia 5Mps (Modified)
+[20:32:38] Remote Process started with Process ID: 29908 using port: 8037. Max Allowed Instances: 1
+[20:32:38] Worker: Starting HandBrake Engine ...
+[20:32:38] Worker: Parent Process Id 27368
+[20:32:38] Worker: Starting Web Server on port 8037 ...
+[20:32:38] Worker: Starting Listener: 1
+[20:32:38] Worker: Server Started
+[20:32:38] Worker: Disconnected worker monitoring enabled!
+[20:32:38] Compile-time hardening features are enabled
+[20:32:38] nvenc: version 13.0 is available
+[20:32:38] nvdec: is available
+[20:32:38] CUDA Version: 8.9
+[20:32:38] vcn: not available on this system
+[20:32:39] qsv: is available on this system
+[20:32:39] hb_init: starting libhb thread
+
+[20:32:39] Starting work at: Tue Mar 18 20:32:39 2025
+[20:32:39] 1 job(s) to process
+[20:32:39] CPU: 13th Gen Intel(R) Core(TM) i7-13700HX
+[20:32:39]  - logical processor count: 24
+[20:32:39] Intel Quick Sync Video support: yes, gpu list: 1
+[20:32:39] Intel Quick Sync Video integrated adapter with index 1
+[20:32:39] Impl mfx-gen library path: C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_89db58ae936de7ec\libmfx64-gen.dll
+[20:32:39]  - Intel Media SDK hardware: API 2.8 (minimum: 1.3)
+[20:32:39]  - H.264 encoder: yes
+[20:32:39]     - preferred implementation: hardware (2) via D3D11
+[20:32:39]  - H.265 encoder: yes (8bit: yes, 10bit: yes)
+[20:32:39]     - preferred implementation: hardware (2) via D3D11
+[20:32:39]  - AV1 encoder: no
+[20:32:39] hb_scan: path=C:\Users\Kevan\Desktop\ADB\270 Deg.mp4, title_index=4
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\Kevan\Desktop\ADB\270 Deg.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2025-03-18T11:52:01.000000Z
+    author          : Galaxy Z Fold5
+    author-eng      : Galaxy Z Fold5
+    location        : +01.3360+103.8438/
+    location-eng    : +01.3360+103.8438/
+    com.android.version: 14
+    com.android.capture.fps: 30.000000
+  Duration: 00:00:05.95, start: 0.000000, bitrate: 7067 kb/s
+  Stream #0:0[0x1](eng): Video: hevc (Main) (hvc1 / 0x31637668), yuv420p(tv, bt709), 1280x720, 6983 kb/s, 30.01 fps, 30 tbr, 90k tbn (default)
+      Metadata:
+        creation_time   : 2025-03-18T11:52:01.000000Z
+        handler_name    : VideoHandle
+        vendor_id       : [0][0][0][0]
+      Side data:
+        displaymatrix: rotation of 90.00 degrees
+  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 256 kb/s (default)
+      Metadata:
+        creation_time   : 2025-03-18T11:52:01.000000Z
+        handler_name    : SoundHandle
+        vendor_id       : [0][0][0][0]
+[20:32:39] scan: decoding previews for title 4
+[20:32:39] scan: audio 0x1: aac, rate=48000Hz, bitrate=256100 English (AAC LC, 2.0 ch, 256 kbps)
+[20:32:39] Auto-Rotating video 90 degrees
+[20:32:39] scan: 10 previews, 720x1280, 30.007 fps, autocrop = 0/0/0/0, aspect 1:1.78, PAR 1:1, color profile: 1-1-1, chroma location: left
+[20:32:39] scan: supported video decoders: avcodec hwaccel
+[20:32:39] libhb: scan thread found 1 valid title(s)
+[20:32:39] Starting Task: Analysis Pass
+[20:32:39] work: skipping crop/scale filter
+[20:32:39] work: only 1 chapter, disabling chapter markers
+[20:32:39] job configuration:
+[20:32:39]  * source
+[20:32:39]    + C:\Users\Kevan\Desktop\ADB\270 Deg.mp4
+[20:32:39]    + title 4, chapter(s) 1 to 1
+[20:32:39]    + container: mov,mp4,m4a,3gp,3g2,mj2
+[20:32:39]    + data rate: 7067 kbps
+[20:32:39]  * destination
+[20:32:39]    + C:\Users\kevan\Videos\Encoded\ADB\svt_av1-270 Deg.mp4
+[20:32:39]    + container: MPEG-4 (libavformat)
+[20:32:39]      + optimized for HTTP streaming (fast start)
+[20:32:39]      + align initial A/V stream timestamps
+[20:32:39]  * video track
+[20:32:39]    + decoder: hevc 8-bit (yuv420p)
+[20:32:39]      + bitrate 6983 kbps
+[20:32:39]    + filter
+[20:32:39]      + Framerate Shaper (mode=0)
+[20:32:39]        + frame rate: same as source (around 30.007 fps)
+[20:32:39]    + Output geometry
+[20:32:39]      + storage dimensions: 720 x 1280
+[20:32:39]      + pixel aspect ratio: 1 : 1
+[20:32:39]      + display dimensions: 720 x 1280
+[20:32:39]    + encoder: AV1 (SVT)
+[20:32:39]      + preset:  4
+[20:32:39]      + tune:    vq
+[20:32:39]      + profile: auto
+[20:32:39]      + level:   auto
+[20:32:39]      + bitrate: 5000 kbps, pass: 1
+[20:32:39]      + color profile: 1-1-1
+[20:32:39]      + color range: tv
+[20:32:39]      + chroma location: left
+[20:32:39]  * audio track 1
+[20:32:39]    + decoder: English (AAC LC, 2.0 ch, 256 kbps) (track 1, id 0x1)
+[20:32:39]      + bitrate: 256 kbps, samplerate: 48000 Hz
+[20:32:39]    + AAC Passthru
+[20:32:39] sync: expecting 178 video frames
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [version]:	SVT-AV1 Encoder Lib v3.0.1
+Svt[info]: SVT [build]  :	GCC 13.2.0	 64 bit
+Svt[info]: -------------------------------------------
+Svt[warn]: The input q value is ignored in vbr mode 43
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [config]: preset 							: Pass 1
+Svt[info]: -------------------------------------------
+[20:32:39] Auto-Rotating video 90 degrees
+[20:32:39] sync: first pts audio 0x1 is 0
+[20:32:39] sync: first pts video is 13599
+[20:32:39] sync: "Chapter 1" (1) at frame 1 time 13599
+[20:32:40] reader: done. 1 scr changes
+[20:32:40] work: average encoding speed for job is 0.000000 fps
+[20:32:40] vfr: 174 frames output, 0 dropped
+[20:32:40] vfr: lost time: 0 (0 frames)
+[20:32:40] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[20:32:40] aac-decoder done: 278 frames, 0 decoder errors
+[20:32:40] hevc-decoder done: 174 frames, 0 decoder errors
+[20:32:40] sync: got 174 frames, 178 expected
+[20:32:40] sync: framerate min 30.007 fps, max 30.007 fps, avg 30.007 fps
+[20:32:40] Starting Task: Encoding Pass
+[20:32:40] work: skipping crop/scale filter
+[20:32:40] work: only 1 chapter, disabling chapter markers
+[20:32:40] job configuration:
+[20:32:40]  * source
+[20:32:40]    + C:\Users\Kevan\Desktop\ADB\270 Deg.mp4
+[20:32:40]    + title 4, chapter(s) 1 to 1
+[20:32:40]    + container: mov,mp4,m4a,3gp,3g2,mj2
+[20:32:40]    + data rate: 7067 kbps
+[20:32:40]  * destination
+[20:32:40]    + C:\Users\kevan\Videos\Encoded\ADB\svt_av1-270 Deg.mp4
+[20:32:40]    + container: MPEG-4 (libavformat)
+[20:32:40]      + optimized for HTTP streaming (fast start)
+[20:32:40]      + align initial A/V stream timestamps
+[20:32:40]  * video track
+[20:32:40]    + decoder: hevc 8-bit (yuv420p)
+[20:32:40]      + bitrate 6983 kbps
+[20:32:40]    + filter
+[20:32:40]      + Framerate Shaper (mode=0)
+[20:32:40]        + frame rate: same as source (around 30.007 fps)
+[20:32:40]    + Output geometry
+[20:32:40]      + storage dimensions: 720 x 1280
+[20:32:40]      + pixel aspect ratio: 1 : 1
+[20:32:40]      + display dimensions: 720 x 1280
+[20:32:40]    + encoder: AV1 (SVT)
+[20:32:40]      + preset:  4
+[20:32:40]      + tune:    vq
+[20:32:40]      + profile: auto
+[20:32:40]      + level:   auto
+[20:32:40]      + bitrate: 5000 kbps, pass: 2
+[20:32:40]      + color profile: 1-1-1
+[20:32:40]      + color range: tv
+[20:32:40]      + chroma location: left
+[20:32:40]  * audio track 1
+[20:32:40]    + decoder: English (AAC LC, 2.0 ch, 256 kbps) (track 1, id 0x1)
+[20:32:40]      + bitrate: 256 kbps, samplerate: 48000 Hz
+[20:32:40]    + AAC Passthru
+[20:32:40] sync: expecting 174 video frames
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [version]:	SVT-AV1 Encoder Lib v3.0.1
+Svt[info]: SVT [build]  :	GCC 13.2.0	 64 bit
+Svt[info]: -------------------------------------------
+Svt[warn]: For CRF or 2PASS RC mode, the maximum needed Lookahead distance is 42. Force the look_ahead_distance to be 42
+Svt[info]: Level of Parallelism: 6
+Svt[info]: Number of PPCS 161
+Svt[info]: [asm level on system : up to avx2]
+Svt[info]: [asm level selected : up to avx2]
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [config]: main profile	tier (auto)	level (auto)
+Svt[info]: SVT [config]: width / height / fps numerator / fps denominator 		: 720 / 1280 / 9000000 / 299929
+Svt[info]: SVT [config]: bit-depth / color format 					: 8 / YUV420
+Svt[info]: SVT [config]: preset / tune / pred struct 					: 4 / VQ / random access
+Svt[info]: SVT [config]: gop size / mini-gop size / key-frame type 			: 306 / 16 / key frame
+Svt[info]: SVT [config]: BRC mode / target bitrate (kbps)				: VBR / 5000
+Svt[info]: SVT [config]: AQ mode / variance boost 					: 2 / 0
+Svt[info]: SVT [config]: sharpness / luminance-based QP bias 			: 0 / 0
+Svt[info]: Svt[info]: -------------------------------------------
+[20:32:41] Auto-Rotating video 90 degrees
+[20:32:41] sync: first pts audio 0x1 is 0
+[20:32:41] sync: first pts video is 13599
+[20:32:41] sync: "Chapter 1" (1) at frame 1 time 13599
+[20:32:41] reader: done. 1 scr changes
+[20:32:51] work: average encoding speed for job is 0.000000 fps
+[20:32:51] vfr: 174 frames output, 0 dropped
+[20:32:51] vfr: lost time: 0 (0 frames)
+[20:32:51] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[20:32:51] aac-decoder done: 278 frames, 0 decoder errors
+[20:32:51] hevc-decoder done: 174 frames, 0 decoder errors
+[20:32:51] sync: got 174 frames, 174 expected
+[20:32:51] sync: framerate min 30.007 fps, max 30.007 fps, avg 30.007 fps
+[20:32:52] mux: track 0, 174 frames, 4726458 bytes, 6330.82 kbps, fifo 256
+[20:32:52] mux: track 1, 278 frames, 189853 bytes, 254.30 kbps, fifo 512
+[20:32:52] Finished work at: Tue Mar 18 20:32:52 2025
+[20:32:52] libhb: work result = 0
+
+ # Job Completed!
+

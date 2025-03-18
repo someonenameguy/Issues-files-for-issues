@@ -1,0 +1,229 @@
+HandBrake Nightly 20250315092333-721a872e9-master (2025031701)
+OS: Microsoft Windows NT 10.0.22631.0
+CPU: 13th Gen Intel(R) Core(TM) i7-13700HX
+Ram: 32487 MB, 
+GPU Information:
+  NVIDIA GeForce RTX 4060 Laptop GPU - 32.0.15.7196
+  Intel(R) UHD Graphics - 31.0.101.4146
+Screen: 2048x1280
+Temp Dir: C:\Users\Kevan\AppData\Local\Temp\
+Install Dir: C:\Users\Kevan\Desktop\ADB\HandBrake\
+Data Dir: C:\Users\Kevan\AppData\Roaming\HandBrake\Nightly
+
+-------------------------------------------
+
+ # Starting Encode ...
+
+[20:31:17] base preset: Default HEVC Nivdia 5Mps (Modified)
+[20:31:17] Remote Process started with Process ID: 7072 using port: 8037. Max Allowed Instances: 1
+[20:31:17] Worker: Starting HandBrake Engine ...
+[20:31:17] Worker: Parent Process Id 27368
+[20:31:17] Worker: Starting Web Server on port 8037 ...
+[20:31:17] Worker: Starting Listener: 1
+[20:31:17] Worker: Server Started
+[20:31:17] Worker: Disconnected worker monitoring enabled!
+[20:31:17] Compile-time hardening features are enabled
+[20:31:17] nvenc: version 13.0 is available
+[20:31:17] nvdec: is available
+[20:31:17] CUDA Version: 8.9
+[20:31:17] vcn: not available on this system
+[20:31:18] qsv: is available on this system
+[20:31:18] hb_init: starting libhb thread
+
+[20:31:18] Starting work at: Tue Mar 18 20:31:18 2025
+[20:31:18] 1 job(s) to process
+[20:31:18] CPU: 13th Gen Intel(R) Core(TM) i7-13700HX
+[20:31:18]  - logical processor count: 24
+[20:31:18] Intel Quick Sync Video support: yes, gpu list: 1
+[20:31:18] Intel Quick Sync Video integrated adapter with index 1
+[20:31:18] Impl mfx-gen library path: C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_89db58ae936de7ec\libmfx64-gen.dll
+[20:31:18]  - Intel Media SDK hardware: API 2.8 (minimum: 1.3)
+[20:31:18]  - H.264 encoder: yes
+[20:31:18]     - preferred implementation: hardware (2) via D3D11
+[20:31:18]  - H.265 encoder: yes (8bit: yes, 10bit: yes)
+[20:31:18]     - preferred implementation: hardware (2) via D3D11
+[20:31:18]  - AV1 encoder: no
+[20:31:18] hb_scan: path=C:\Users\Kevan\Desktop\ADB\0 Deg.mp4, title_index=1
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\Kevan\Desktop\ADB\0 Deg.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2025-03-18T11:51:32.000000Z
+    author          : Galaxy Z Fold5
+    author-eng      : Galaxy Z Fold5
+    location        : +01.3360+103.8438/
+    location-eng    : +01.3360+103.8438/
+    com.android.version: 14
+    com.android.capture.fps: 30.000000
+  Duration: 00:00:06.03, start: 0.000000, bitrate: 7164 kb/s
+  Stream #0:0[0x1](eng): Video: hevc (Main) (hvc1 / 0x31637668), yuv420p(tv, bt709), 1280x720, 7054 kb/s, 30.01 fps, 30 tbr, 90k tbn (default)
+      Metadata:
+        creation_time   : 2025-03-18T11:51:32.000000Z
+        handler_name    : VideoHandle
+        vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 256 kb/s (default)
+      Metadata:
+        creation_time   : 2025-03-18T11:51:32.000000Z
+        handler_name    : SoundHandle
+        vendor_id       : [0][0][0][0]
+[20:31:18] scan: decoding previews for title 1
+[20:31:18] scan: audio 0x1: aac, rate=48000Hz, bitrate=256150 English (AAC LC, 2.0 ch, 256 kbps)
+[20:31:18] scan: 10 previews, 1280x720, 30.007 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+[20:31:18] scan: supported video decoders: avcodec hwaccel
+[20:31:18] libhb: scan thread found 1 valid title(s)
+[20:31:18] Starting Task: Analysis Pass
+[20:31:18] work: skipping crop/scale filter
+[20:31:18] work: only 1 chapter, disabling chapter markers
+[20:31:18] job configuration:
+[20:31:18]  * source
+[20:31:18]    + C:\Users\Kevan\Desktop\ADB\0 Deg.mp4
+[20:31:18]    + title 1, chapter(s) 1 to 1
+[20:31:18]    + container: mov,mp4,m4a,3gp,3g2,mj2
+[20:31:18]    + data rate: 7164 kbps
+[20:31:18]  * destination
+[20:31:18]    + C:\Users\kevan\Videos\Encoded\ADB\x264-0 Deg.mp4
+[20:31:18]    + container: MPEG-4 (libavformat)
+[20:31:18]      + optimized for HTTP streaming (fast start)
+[20:31:18]      + align initial A/V stream timestamps
+[20:31:18]  * video track
+[20:31:18]    + decoder: hevc 8-bit (yuv420p)
+[20:31:18]      + bitrate 7054 kbps
+[20:31:18]    + filter
+[20:31:18]      + Framerate Shaper (mode=0)
+[20:31:18]        + frame rate: same as source (around 30.007 fps)
+[20:31:18]    + Output geometry
+[20:31:18]      + storage dimensions: 1280 x 720
+[20:31:18]      + pixel aspect ratio: 1 : 1
+[20:31:18]      + display dimensions: 1280 x 720
+[20:31:18]    + encoder: H.264 (libx264)
+[20:31:18]      + preset:  slower
+[20:31:18]      + profile: auto
+[20:31:18]      + level:   auto
+[20:31:18]      + bitrate: 5000 kbps, pass: 1
+[20:31:18]      + fast first pass
+[20:31:18]      + options: ref=1:8x8dct=0:me=dia:trellis=0
+[20:31:18]                 analyse=i4x4 (if originally enabled, else analyse=none)
+[20:31:18]                 subq=2 (if originally greater than 2, else subq unchanged)
+[20:31:18]      + color profile: 1-1-1
+[20:31:18]      + color range: tv
+[20:31:18]      + chroma location: left
+[20:31:18]  * audio track 1
+[20:31:18]    + decoder: English (AAC LC, 2.0 ch, 256 kbps) (track 1, id 0x1)
+[20:31:18]      + bitrate: 256 kbps, samplerate: 48000 Hz
+[20:31:18]    + AAC Passthru
+[20:31:18] sync: expecting 180 video frames
+[20:31:18] encx264: min-keyint: 30, keyint: 300
+[20:31:18] encx264: encoding at average bitrate 5000
+[20:31:18] encx264: unparsed options: ref=8:b-adapt=2:direct=auto:analyse=all:me=umh:subme=9:trellis=2:rc-lookahead=60
+x264 [info]: using SAR=1/1
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 UnalignedStack
+x264 [info]: profile Main, level 3.2, 4:2:0, 8-bit
+[20:31:18] sync: first pts audio 0x1 is 0
+[20:31:18] sync: first pts video is 11655
+[20:31:18] sync: "Chapter 1" (1) at frame 1 time 11655
+[20:31:19] reader: done. 1 scr changes
+[20:31:19] work: average encoding speed for job is 0.000000 fps
+[20:31:19] vfr: 177 frames output, 0 dropped
+[20:31:19] vfr: lost time: 0 (0 frames)
+[20:31:19] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[20:31:19] aac-decoder done: 282 frames, 0 decoder errors
+[20:31:19] hevc-decoder done: 177 frames, 0 decoder errors
+[20:31:19] sync: got 177 frames, 180 expected
+[20:31:19] sync: framerate min 30.007 fps, max 30.007 fps, avg 30.007 fps
+x264 [info]: frame I:1     Avg QP:18.52  size:125036
+x264 [info]: frame P:59    Avg QP:20.62  size: 39414
+x264 [info]: frame B:117   Avg QP:23.05  size:  8494
+x264 [info]: consecutive B-frames:  1.7% 15.8% 44.1% 38.4%
+x264 [info]: mb I  I16..4: 11.3%  0.0% 88.7%
+x264 [info]: mb P  I16..4: 19.0%  0.0%  0.0%  P16..4: 76.9%  0.0%  0.0%  0.0%  0.0%    skip: 4.1%
+x264 [info]: mb B  I16..4:  1.5%  0.0%  0.0%  B16..8: 32.2%  0.0%  0.0%  direct:20.0%  skip:46.3%  L0:26.2% L1:38.6% BI:35.2%
+x264 [info]: final ratefactor: 18.11
+x264 [info]: direct mvs  spatial:92.3% temporal:7.7%
+x264 [info]: coded y,uvDC,uvAC intra: 77.3% 51.0% 7.1% inter: 27.8% 19.1% 0.5%
+x264 [info]: i16 v,h,dc,p:  9% 52% 20% 19%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu:  8% 48% 15%  2%  6%  2%  8%  3%  8%
+x264 [info]: i8c dc,h,v,p: 51% 33% 11%  4%
+x264 [info]: Weighted P-Frames: Y:1.7% UV:0.0%
+x264 [info]: kb/s:4671.30
+[20:31:19] Starting Task: Encoding Pass
+[20:31:19] work: skipping crop/scale filter
+[20:31:19] work: only 1 chapter, disabling chapter markers
+[20:31:19] job configuration:
+[20:31:19]  * source
+[20:31:19]    + C:\Users\Kevan\Desktop\ADB\0 Deg.mp4
+[20:31:19]    + title 1, chapter(s) 1 to 1
+[20:31:19]    + container: mov,mp4,m4a,3gp,3g2,mj2
+[20:31:19]    + data rate: 7164 kbps
+[20:31:19]  * destination
+[20:31:19]    + C:\Users\kevan\Videos\Encoded\ADB\x264-0 Deg.mp4
+[20:31:19]    + container: MPEG-4 (libavformat)
+[20:31:19]      + optimized for HTTP streaming (fast start)
+[20:31:19]      + align initial A/V stream timestamps
+[20:31:19]  * video track
+[20:31:19]    + decoder: hevc 8-bit (yuv420p)
+[20:31:19]      + bitrate 7054 kbps
+[20:31:19]    + filter
+[20:31:19]      + Framerate Shaper (mode=0)
+[20:31:19]        + frame rate: same as source (around 30.007 fps)
+[20:31:19]    + Output geometry
+[20:31:19]      + storage dimensions: 1280 x 720
+[20:31:19]      + pixel aspect ratio: 1 : 1
+[20:31:19]      + display dimensions: 1280 x 720
+[20:31:19]    + encoder: H.264 (libx264)
+[20:31:19]      + preset:  slower
+[20:31:19]      + profile: auto
+[20:31:19]      + level:   auto
+[20:31:19]      + bitrate: 5000 kbps, pass: 2
+[20:31:19]      + color profile: 1-1-1
+[20:31:19]      + color range: tv
+[20:31:19]      + chroma location: left
+[20:31:19]  * audio track 1
+[20:31:19]    + decoder: English (AAC LC, 2.0 ch, 256 kbps) (track 1, id 0x1)
+[20:31:19]      + bitrate: 256 kbps, samplerate: 48000 Hz
+[20:31:19]    + AAC Passthru
+[20:31:19] sync: expecting 177 video frames
+[20:31:19] encx264: min-keyint: 30, keyint: 300
+[20:31:19] encx264: encoding at average bitrate 5000
+[20:31:19] encx264: unparsed options: ref=8:b-adapt=2:direct=auto:analyse=all:me=umh:subme=9:trellis=2:rc-lookahead=60
+x264 [info]: using SAR=1/1
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 UnalignedStack
+x264 [info]: profile High, level 4.0, 4:2:0, 8-bit
+[20:31:19] sync: first pts audio 0x1 is 0
+[20:31:19] sync: first pts video is 11655
+[20:31:19] sync: "Chapter 1" (1) at frame 1 time 11655
+[20:31:20] reader: done. 1 scr changes
+[20:31:22] work: average encoding speed for job is 0.000000 fps
+[20:31:22] vfr: 177 frames output, 0 dropped
+[20:31:22] vfr: lost time: 0 (0 frames)
+[20:31:22] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[20:31:22] aac-decoder done: 282 frames, 0 decoder errors
+[20:31:22] hevc-decoder done: 177 frames, 0 decoder errors
+[20:31:22] sync: got 177 frames, 177 expected
+[20:31:22] sync: framerate min 30.007 fps, max 30.007 fps, avg 30.007 fps
+x264 [info]: frame I:1     Avg QP:18.10  size:140986
+x264 [info]: frame P:59    Avg QP:20.19  size: 42592
+x264 [info]: frame B:117   Avg QP:22.84  size:  8262
+x264 [info]: consecutive B-frames:  1.7% 15.8% 44.1% 38.4%
+x264 [info]: mb I  I16..4:  1.6% 89.5%  8.9%
+x264 [info]: mb P  I16..4:  0.8%  8.5%  0.5%  P16..4: 54.3% 19.0% 13.6%  0.3%  0.1%    skip: 2.8%
+x264 [info]: mb B  I16..4:  0.1%  0.3%  0.0%  B16..8: 47.7%  4.0%  0.8%  direct: 7.7%  skip:39.4%  L0:40.7% L1:42.3% BI:17.0%
+x264 [info]: 8x8 transform intra:86.7% inter:69.3%
+x264 [info]: direct mvs  spatial:100.0% temporal:0.0%
+x264 [info]: coded y,uvDC,uvAC intra: 91.2% 66.1% 11.9% inter: 31.6% 28.6% 0.7%
+x264 [info]: i16 v,h,dc,p:  8% 46% 11% 36%
+x264 [info]: i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  3% 26%  5%  6%  8%  6% 15%  6% 25%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu:  5% 17%  4%  6% 10%  8% 18%  8% 25%
+x264 [info]: i8c dc,h,v,p: 33% 45% 13% 10%
+x264 [info]: Weighted P-Frames: Y:1.7% UV:0.0%
+x264 [info]: ref P L0: 61.3% 25.3%  7.9%  1.7%  1.4%  0.9%  0.8%  0.6%  0.0%
+x264 [info]: ref B L0: 97.2%  1.9%  0.5%  0.2%  0.1%  0.1%  0.1%
+x264 [info]: ref B L1: 99.5%  0.5%
+x264 [info]: kb/s:4910.40
+[20:31:22] mux: track 0, 177 frames, 3620514 bytes, 4795.89 kbps, fifo 256
+[20:31:22] mux: track 1, 282 frames, 192622 bytes, 255.16 kbps, fifo 512
+[20:31:22] Finished work at: Tue Mar 18 20:31:22 2025
+[20:31:22] libhb: work result = 0
+
+ # Job Completed!
+

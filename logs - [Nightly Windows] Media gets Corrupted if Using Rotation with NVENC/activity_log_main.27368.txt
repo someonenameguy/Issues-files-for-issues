@@ -1,0 +1,151 @@
+HandBrake Nightly 20250315092333-721a872e9-master (2025031701)
+OS: Microsoft Windows NT 10.0.22631.0
+CPU: 13th Gen Intel(R) Core(TM) i7-13700HX
+Ram: 32487 MB, 
+GPU Information:
+  NVIDIA GeForce RTX 4060 Laptop GPU - 32.0.15.7196
+  Intel(R) UHD Graphics - 31.0.101.4146
+Screen: 2048x1280
+Temp Dir: C:\Users\Kevan\AppData\Local\Temp\
+Install Dir: C:\Users\Kevan\Desktop\ADB\HandBrake\
+Data Dir: C:\Users\Kevan\AppData\Roaming\HandBrake\Nightly
+
+-------------------------------------------
+[20:25:51] hb_init: starting libhb thread
+
+ # Starting Scan ...
+
+[20:25:51] CPU: 13th Gen Intel(R) Core(TM) i7-13700HX
+[20:25:51]  - logical processor count: 24
+[20:25:51] Intel Quick Sync Video support: yes, gpu list: 1
+[20:25:51] Intel Quick Sync Video integrated adapter with index 1
+[20:25:51] Impl mfx-gen library path: C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_89db58ae936de7ec\libmfx64-gen.dll
+[20:25:51]  - Intel Media SDK hardware: API 2.8 (minimum: 1.3)
+[20:25:51]  - H.264 encoder: yes
+[20:25:51]     - preferred implementation: hardware (2) via D3D11
+[20:25:51]  - H.265 encoder: yes (8bit: yes, 10bit: yes)
+[20:25:51]     - preferred implementation: hardware (2) via D3D11
+[20:25:51]  - AV1 encoder: no
+[20:25:51] hb_scan: path=(multiple), title_index=0
+[20:25:51] batch: scanning C:\Users\Kevan\Desktop\ADB\0 Deg.mp4
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\Kevan\Desktop\ADB\0 Deg.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2025-03-18T11:51:32.000000Z
+    author          : Galaxy Z Fold5
+    author-eng      : Galaxy Z Fold5
+    location        : +01.3360+103.8438/
+    location-eng    : +01.3360+103.8438/
+    com.android.version: 14
+    com.android.capture.fps: 30.000000
+  Duration: 00:00:06.03, start: 0.000000, bitrate: 7164 kb/s
+  Stream #0:0[0x1](eng): Video: hevc (Main) (hvc1 / 0x31637668), yuv420p(tv, bt709), 1280x720, 7054 kb/s, 30.01 fps, 30 tbr, 90k tbn (default)
+      Metadata:
+        creation_time   : 2025-03-18T11:51:32.000000Z
+        handler_name    : VideoHandle
+        vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 256 kb/s (default)
+      Metadata:
+        creation_time   : 2025-03-18T11:51:32.000000Z
+        handler_name    : SoundHandle
+        vendor_id       : [0][0][0][0]
+[20:25:51] batch: scanning C:\Users\Kevan\Desktop\ADB\90 Deg.mp4
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\Kevan\Desktop\ADB\90 Deg.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2025-03-18T11:51:43.000000Z
+    author          : Galaxy Z Fold5
+    author-eng      : Galaxy Z Fold5
+    location        : +01.3360+103.8438/
+    location-eng    : +01.3360+103.8438/
+    com.android.version: 14
+    com.android.capture.fps: 30.000000
+  Duration: 00:00:05.92, start: 0.000000, bitrate: 7109 kb/s
+  Stream #0:0[0x1](eng): Video: hevc (Main) (hvc1 / 0x31637668), yuv420p(tv, bt709), 1280x720, 7074 kb/s, 30.01 fps, 30 tbr, 90k tbn (default)
+      Metadata:
+        creation_time   : 2025-03-18T11:51:43.000000Z
+        handler_name    : VideoHandle
+        vendor_id       : [0][0][0][0]
+      Side data:
+        displaymatrix: rotation of -90.00 degrees
+  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 256 kb/s (default)
+      Metadata:
+        creation_time   : 2025-03-18T11:51:43.000000Z
+        handler_name    : SoundHandle
+        vendor_id       : [0][0][0][0]
+[20:25:51] batch: scanning C:\Users\Kevan\Desktop\ADB\180 Deg.mp4
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\Kevan\Desktop\ADB\180 Deg.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2025-03-18T11:52:13.000000Z
+    author          : Galaxy Z Fold5
+    author-eng      : Galaxy Z Fold5
+    location        : +01.3360+103.8438/
+    location-eng    : +01.3360+103.8438/
+    com.android.version: 14
+    com.android.capture.fps: 30.000000
+  Duration: 00:00:05.86, start: 0.000000, bitrate: 7176 kb/s
+  Stream #0:0[0x1](eng): Video: hevc (Main) (hvc1 / 0x31637668), yuv420p(tv, bt709), 1280x720, 7114 kb/s, 30.01 fps, 30 tbr, 90k tbn (default)
+      Metadata:
+        creation_time   : 2025-03-18T11:52:13.000000Z
+        handler_name    : VideoHandle
+        vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 256 kb/s (default)
+      Metadata:
+        creation_time   : 2025-03-18T11:52:13.000000Z
+        handler_name    : SoundHandle
+        vendor_id       : [0][0][0][0]
+[20:25:51] batch: scanning C:\Users\Kevan\Desktop\ADB\270 Deg.mp4
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\Kevan\Desktop\ADB\270 Deg.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2025-03-18T11:52:01.000000Z
+    author          : Galaxy Z Fold5
+    author-eng      : Galaxy Z Fold5
+    location        : +01.3360+103.8438/
+    location-eng    : +01.3360+103.8438/
+    com.android.version: 14
+    com.android.capture.fps: 30.000000
+  Duration: 00:00:05.95, start: 0.000000, bitrate: 7067 kb/s
+  Stream #0:0[0x1](eng): Video: hevc (Main) (hvc1 / 0x31637668), yuv420p(tv, bt709), 1280x720, 6983 kb/s, 30.01 fps, 30 tbr, 90k tbn (default)
+      Metadata:
+        creation_time   : 2025-03-18T11:52:01.000000Z
+        handler_name    : VideoHandle
+        vendor_id       : [0][0][0][0]
+      Side data:
+        displaymatrix: rotation of 90.00 degrees
+  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 256 kb/s (default)
+      Metadata:
+        creation_time   : 2025-03-18T11:52:01.000000Z
+        handler_name    : SoundHandle
+        vendor_id       : [0][0][0][0]
+[20:25:51] scan: decoding previews for title 1
+[20:25:51] scan: audio 0x1: aac, rate=48000Hz, bitrate=256150 English (AAC LC, 2.0 ch, 256 kbps)
+[20:25:51] scan: 10 previews, 1280x720, 30.007 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+[20:25:51] scan: supported video decoders: avcodec hwaccel
+[20:25:51] scan: decoding previews for title 2
+[20:25:51] scan: audio 0x1: aac, rate=48000Hz, bitrate=256056 English (AAC LC, 2.0 ch, 256 kbps)
+[20:25:52] Auto-Rotating video 270 degrees
+[20:25:52] scan: 10 previews, 720x1280, 30.007 fps, autocrop = 0/0/0/0, aspect 1:1.78, PAR 1:1, color profile: 1-1-1, chroma location: left
+[20:25:52] scan: supported video decoders: avcodec hwaccel
+[20:25:52] scan: decoding previews for title 3
+[20:25:52] scan: audio 0x1: aac, rate=48000Hz, bitrate=256059 English (AAC LC, 2.0 ch, 256 kbps)
+[20:25:52] scan: 10 previews, 1280x720, 30.007 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+[20:25:52] scan: supported video decoders: avcodec hwaccel
+[20:25:52] scan: decoding previews for title 4
+[20:25:52] scan: audio 0x1: aac, rate=48000Hz, bitrate=256100 English (AAC LC, 2.0 ch, 256 kbps)
+[20:25:52] Auto-Rotating video 90 degrees
+[20:25:52] scan: 10 previews, 720x1280, 30.007 fps, autocrop = 0/0/0/0, aspect 1:1.78, PAR 1:1, color profile: 1-1-1, chroma location: left
+[20:25:52] scan: supported video decoders: avcodec hwaccel
+[20:25:52] libhb: scan thread found 4 valid title(s)
+
+ # Scan Finished ...
+

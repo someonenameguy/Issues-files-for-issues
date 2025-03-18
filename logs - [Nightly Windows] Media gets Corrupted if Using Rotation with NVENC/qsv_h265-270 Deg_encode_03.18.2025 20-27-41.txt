@@ -1,0 +1,142 @@
+HandBrake Nightly 20250315092333-721a872e9-master (2025031701)
+OS: Microsoft Windows NT 10.0.22631.0
+CPU: 13th Gen Intel(R) Core(TM) i7-13700HX
+Ram: 32487 MB, 
+GPU Information:
+  NVIDIA GeForce RTX 4060 Laptop GPU - 32.0.15.7196
+  Intel(R) UHD Graphics - 31.0.101.4146
+Screen: 2048x1280
+Temp Dir: C:\Users\Kevan\AppData\Local\Temp\
+Install Dir: C:\Users\Kevan\Desktop\ADB\HandBrake\
+Data Dir: C:\Users\Kevan\AppData\Roaming\HandBrake\Nightly
+
+-------------------------------------------
+
+ # Starting Encode ...
+
+[20:27:41] base preset: Default HEVC Nivdia 5Mps (Modified)
+[20:27:41] Remote Process started with Process ID: 32172 using port: 8037. Max Allowed Instances: 1
+[20:27:41] Worker: Starting HandBrake Engine ...
+[20:27:41] Worker: Parent Process Id 27368
+[20:27:41] Worker: Starting Web Server on port 8037 ...
+[20:27:41] Worker: Starting Listener: 1
+[20:27:41] Worker: Server Started
+[20:27:41] Worker: Disconnected worker monitoring enabled!
+[20:27:41] Compile-time hardening features are enabled
+[20:27:41] nvenc: version 13.0 is available
+[20:27:41] nvdec: is available
+[20:27:41] CUDA Version: 8.9
+[20:27:41] vcn: not available on this system
+[20:27:42] qsv: is available on this system
+[20:27:42] hb_init: starting libhb thread
+
+[20:27:42] Starting work at: Tue Mar 18 20:27:42 2025
+[20:27:42] 1 job(s) to process
+[20:27:42] CPU: 13th Gen Intel(R) Core(TM) i7-13700HX
+[20:27:42]  - logical processor count: 24
+[20:27:42] Intel Quick Sync Video support: yes, gpu list: 1
+[20:27:42] Intel Quick Sync Video integrated adapter with index 1
+[20:27:42] Impl mfx-gen library path: C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_89db58ae936de7ec\libmfx64-gen.dll
+[20:27:42]  - Intel Media SDK hardware: API 2.8 (minimum: 1.3)
+[20:27:42]  - H.264 encoder: yes
+[20:27:42]     - preferred implementation: hardware (2) via D3D11
+[20:27:42]  - H.265 encoder: yes (8bit: yes, 10bit: yes)
+[20:27:42]     - preferred implementation: hardware (2) via D3D11
+[20:27:42]  - AV1 encoder: no
+[20:27:42] hb_scan: path=C:\Users\Kevan\Desktop\ADB\270 Deg.mp4, title_index=4
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\Kevan\Desktop\ADB\270 Deg.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2025-03-18T11:52:01.000000Z
+    author          : Galaxy Z Fold5
+    author-eng      : Galaxy Z Fold5
+    location        : +01.3360+103.8438/
+    location-eng    : +01.3360+103.8438/
+    com.android.version: 14
+    com.android.capture.fps: 30.000000
+  Duration: 00:00:05.95, start: 0.000000, bitrate: 7067 kb/s
+  Stream #0:0[0x1](eng): Video: hevc (Main) (hvc1 / 0x31637668), yuv420p(tv, bt709), 1280x720, 6983 kb/s, 30.01 fps, 30 tbr, 90k tbn (default)
+      Metadata:
+        creation_time   : 2025-03-18T11:52:01.000000Z
+        handler_name    : VideoHandle
+        vendor_id       : [0][0][0][0]
+      Side data:
+        displaymatrix: rotation of 90.00 degrees
+  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 256 kb/s (default)
+      Metadata:
+        creation_time   : 2025-03-18T11:52:01.000000Z
+        handler_name    : SoundHandle
+        vendor_id       : [0][0][0][0]
+[20:27:42] scan: decoding previews for title 4
+[20:27:42] scan: audio 0x1: aac, rate=48000Hz, bitrate=256100 English (AAC LC, 2.0 ch, 256 kbps)
+[20:27:42] Auto-Rotating video 90 degrees
+[20:27:42] scan: 10 previews, 720x1280, 30.007 fps, autocrop = 0/0/0/0, aspect 1:1.78, PAR 1:1, color profile: 1-1-1, chroma location: left
+[20:27:42] scan: supported video decoders: avcodec hwaccel
+[20:27:42] libhb: scan thread found 1 valid title(s)
+[20:27:42] Starting Task: Encoding Pass
+[20:27:42] work: skipping crop/scale filter
+[20:27:42] work: only 1 chapter, disabling chapter markers
+[20:27:42] job configuration:
+[20:27:42]  * source
+[20:27:42]    + C:\Users\Kevan\Desktop\ADB\270 Deg.mp4
+[20:27:42]    + title 4, chapter(s) 1 to 1
+[20:27:42]    + container: mov,mp4,m4a,3gp,3g2,mj2
+[20:27:42]    + data rate: 7067 kbps
+[20:27:42]  * destination
+[20:27:42]    + C:\Users\kevan\Videos\Encoded\ADB\qsv_h265-270 Deg.mp4
+[20:27:42]    + container: MPEG-4 (libavformat)
+[20:27:42]      + optimized for HTTP streaming (fast start)
+[20:27:42]      + align initial A/V stream timestamps
+[20:27:42]  * video track
+[20:27:42]    + decoder: hevc 8-bit (yuv420p)
+[20:27:42]      + bitrate 6983 kbps
+[20:27:42]    + filters
+[20:27:42]      + Framerate Shaper (mode=0)
+[20:27:42]        + frame rate: same as source (around 30.007 fps)
+[20:27:42]      + Format (format=nv12)
+[20:27:42]    + Output geometry
+[20:27:42]      + storage dimensions: 720 x 1280
+[20:27:42]      + pixel aspect ratio: 1 : 1
+[20:27:42]      + display dimensions: 720 x 1280
+[20:27:42]    + encoder: H.265 (Intel QSV)
+[20:27:42]      + preset:  quality
+[20:27:42]      + options: lowpower=1
+[20:27:42]      + profile: main
+[20:27:42]      + level:   auto
+[20:27:42]      + bitrate: 5000 kbps, pass: 0
+[20:27:42]      + color profile: 1-1-1
+[20:27:42]      + color range: tv
+[20:27:42]      + chroma location: left
+[20:27:42]  * audio track 1
+[20:27:42]    + decoder: English (AAC LC, 2.0 ch, 256 kbps) (track 1, id 0x1)
+[20:27:42]      + bitrate: 256 kbps, samplerate: 48000 Hz
+[20:27:42]    + AAC Passthru
+[20:27:42] sync: expecting 178 video frames
+[20:27:42] encavcodecInit: H.265 (Intel Quick Sync Video)
+[20:27:42] encavcodec: truncating framerate 9000000 / 299929
+[20:27:42] encavcodec: encoding with preset veryslow
+[20:27:42] encavcodec: using encode-only via system memory path
+[20:27:42] encavcodec: using Low Power mode
+[20:27:42] encavcodec: encoding with stored aspect 1/1
+[20:27:42] Auto-Rotating video 90 degrees
+[20:27:42] sync: first pts audio 0x1 is 0
+[20:27:42] sync: first pts video is 13599
+[20:27:42] sync: "Chapter 1" (1) at frame 1 time 13599
+[20:27:43] reader: done. 1 scr changes
+[20:27:43] work: average encoding speed for job is 0.000000 fps
+[20:27:43] vfr: 174 frames output, 0 dropped
+[20:27:43] vfr: lost time: 0 (0 frames)
+[20:27:43] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[20:27:43] aac-decoder done: 278 frames, 0 decoder errors
+[20:27:43] hevc-decoder done: 174 frames, 0 decoder errors
+[20:27:43] sync: got 174 frames, 178 expected
+[20:27:43] sync: framerate min 30.007 fps, max 30.007 fps, avg 30.007 fps
+[20:27:43] mux: track 0, 174 frames, 3704497 bytes, 4968.10 kbps, fifo 256
+[20:27:43] mux: track 1, 278 frames, 189853 bytes, 254.61 kbps, fifo 512
+[20:27:43] Finished work at: Tue Mar 18 20:27:43 2025
+[20:27:43] libhb: work result = 0
+
+ # Job Completed!
+
